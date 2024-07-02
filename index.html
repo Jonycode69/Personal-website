@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Onyinyechi Frontend</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link>
+    <script src="myscripts.js"></script>
+</head>
+<body onload="initClock()">
+    <main>
+        <nav class="nav-link">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <section class="head-section" id="home">
+            <figure>
+            <img src="profile.png" alt="profile picture"  width="648" height="648" data-testid="slackProfilePicture">
+            <figcaption data-testid="onyinyechi_chijioke" >Onyinyechi Chijioke</figcaption>
+            </figure>
+            <div class="head-text">
+        <div class="date-time">
+            <div class="date" data-testid="currentDay" id="current_date">
+                <span id="dayname">Day</span>/
+                <span id="month">Month</span>
+                <span id="daynum">00</span>/
+                <span id="year">Year</span>
+            </div>
+            <div class="time" data-testid="currentTimeUTC" id="current_time">
+                <span id="hour">00</span>.
+                <span id="minutes">00</span>.
+                <span id="seconds">00</span>.
+                <span id="period">00</span>
+            </div>
+        </div>
+            <h1>FRONT-END<br>DEVELOPER</h1>
+        </div>
+        </section>
+        <hr>
+        <section class="about" id="about">
+            <h2 class="about-text">About</h2>
+            
+            <p>I am a front-end developer very passionate about what I do. I believe in persistence and consistency. So my goal for the next 2 years in the tech space is to grow generally in the space as a developer, contribute to open-source projects, become better in my skills, land projects and work with teams and high clients. Consistency is key to growth. I hope to be consistent and continuously expand in knowledge and experience in the space.</p>
+            
+            <p>I am currently undergoing internship at <a href="https://hng.tech/learn" target="_blank" data-testid="hngLink">HNG</a> to get hands in projects and also experience, practice and work in teams collaboration.  <a href="https://hng.tech/learn" target="_blank" data-testid="hngLink">HNG</a> provides internship for different career path and also tools to help make work easy like: <a href="http://keyword.dog/" target="_blank" data-testid="keywordLink">keyword.dog</a> and <a href="http://scrapeanyweb.site/" target="_blank" data-testid="scrapeanywebLink">scrapeanyweb.site.</a></p>
+        </section>
+        <hr>
+        <section class="contact" id="contact">
+            <h2>Contact me:</h2>
+            <a href="mailto:onyinyechichijioke2019@gmail.com" data-testid="onyinyechichijioke2019@gmail.com" class="email">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
+                <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1zm13 2.383-4.708 2.825L15 11.105zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741M1 11.105l4.708-2.897L1 5.383z"/>
+              </svg><p>Email</p>
+            </a>
+
+        </section>
+       
+    </main>
+</body>
+</html>
